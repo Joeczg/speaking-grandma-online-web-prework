@@ -13,11 +13,17 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma(pharse)
   if pharse=="I LOVE YOU GRANDMA!"
-    return puts "I LOVE YOU TOO PUMPKIN!"
+    respond= "I LOVE YOU TOO PUMPKIN!"
+    puts respond
+    return respond
     elsif pharse==pharse.upcase
-    return puts "NO, NOT SINCE 1938!"
+    respond="NO, NOT SINCE 1938!"
+    puts respond
+    return respond
   else
-    return puts "HUH?! SPEAK UP, SONNY!"
+    respond="HUH?! SPEAK UP, SONNY!"
+    puts respond
+    return respond
   end
 end
   pharse="HOW ARE YOU"
